@@ -1,0 +1,22 @@
+
+* Overview
+
+  This is a repository for exploratory code and results pertaining to
+  the automated detection of higher-order features (e.g. DNA looping,
+  TF polymerization) in ChIP-seq datasets.
+
+* Setup
+
+  Some data used in this study is currently unpublished.  Please
+  contact [me]@[my university].edu for details.
+
+  We assume you have installed:
+   
+   - bowtie
+
+   - standard POSIX environment, e.g. Python 2.x, curl, make, &c.
+
+  Then type:
+
+: $ make
+
