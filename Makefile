@@ -8,11 +8,11 @@ data/genomes : data/genomes/NC_00913.fna
 
 # Map reads from AraCa replicate
 results/AraC/maps/AraCa.map : data/genomes/e_coli_k12_mg1655* data/Sample_AMS-ara-gal-Ec_AraCa/AMS-ara-gal-Ec_AraCa_CAGATC_L006_R1_001.fastq
-	bowtie -m 1 data/genomes/e_coli_k12_mg1655 data/Sample_AMS-ara-gal-Ec_AraCa/AMS-ara-gal-Ec_AraCa_CAGATC_L006_R1_001.fastq > results/AraC/maps/AraCa.map
+	bowtie -m 1 data/genomes/e_coli_k12_mg1655 data/Sample_AMS-ara-gal-Ec_AraCa/AMS-ara-gal-Ec_AraCa_CAGATC_L006_R1_001.fastq 1> results/AraC/maps/AraCa.map 2> results/AraC/maps/AraCa.out
 
 # Map reads from AraCb replicate
 results/AraC/maps/AraCb.map : data/genomes/e_coli_k12_mg1655* data/Sample_AMS-ara-gal-Ec_AraCb/AMS-ara-gal-Ec_AraCb_CTTGTA_L006_R1_001.fastq
-	bowtie -m 1 data/genomes/e_coli_k12_mg1655 data/Sample_AMS-ara-gal-Ec_AraCb/AMS-ara-gal-Ec_AraCb_CTTGTA_L006_R1_001.fastq > results/AraC/maps/AraCb.map 
+	bowtie -m 1 data/genomes/e_coli_k12_mg1655 data/Sample_AMS-ara-gal-Ec_AraCb/AMS-ara-gal-Ec_AraCb_CTTGTA_L006_R1_001.fastq 1> results/AraC/maps/AraCb.map 2> results/AraC/maps/AraCb.out
 
 # Compile map file into read density csv for AraCa replicate
 results/AraC/AraCa.csv : src/map2csv.py results/AraC/maps/AraCa.map
