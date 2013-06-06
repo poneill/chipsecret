@@ -2,8 +2,8 @@
 * Overview
 
   This is a repository for exploratory code and results pertaining to
-  the automated detection of higher-order features (e.g. DNA looping,
-  TF polymerization) in ChIP-seq datasets.
+  machine learning for detection of higher-order features (e.g. DNA
+  looping, TF polymerization) in ChIP-seq datasets.
 
 * Setup
 
