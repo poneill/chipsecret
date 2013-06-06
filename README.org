@@ -8,7 +8,7 @@
 * Setup
 
   Some data used in this study is currently unpublished.  Please
-  contact [me]@[my university].edu for details.
+  contact patrick[dot]oneill@umbc.edu for details.
 
   We assume you have installed:
    
