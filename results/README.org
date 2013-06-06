@@ -1,0 +1,3 @@
+This directory contains the output of computations resulting from code
+written for the project, or from external programs run with custom
+parameters.  (See data/README.org) for clarification.
