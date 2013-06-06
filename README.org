@@ -4,7 +4,8 @@
   This is a repository for exploratory code and results pertaining to
   machine learning for detection of higher-order features (e.g. DNA
   looping, TF polymerization) in ChIP-seq datasets.  We wish to
-  discover the "secrets" contained in ChIP-seq, hence =chipsecret=.
+  discover the "secrets" contained in ChIP-seq data, hence
+  =chipsecret=.
 
 * Setup
 
