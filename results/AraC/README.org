@@ -1,0 +1,2 @@
+Contains results for AraC datasets, including read density files
+(AraC[ab].csv) and map files (/map).
