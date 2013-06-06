@@ -1,0 +1,8 @@
+This directory contains data sources that should be considered "raw
+inputs" to the project.  A data source is a raw input if it originated
+outside of the project, or was generated from a raw input using a
+program written outside of the project with default parameters.  If a
+data source was compiled using code written for the project, or an
+external program with custom parameter settings, it belongs in the
+=results= directory, even if the data source contains the output of an
+intermediate computation rather than a final result.
