@@ -4,8 +4,8 @@ data/genomes/NC_00913.fna :
 
 # Build a Bowtie index for it
 data/genomes : data/genomes/NC_00913.fna
-	bowtie-build e_coli_k12_mg1655 data/genomes/NC_00913.fna
-
+#	bowtie-build e_coli_k12_mg1655 data/genomes/NC_00913.fna
+	bowtie-build data/genomes/NC_00913.fna e_coli_k12_mg1655 
 # Map reads from AraCa replicate
 results/AraC/maps/AraCa.map : data/genomes/e_coli_k12_mg1655* data/Sample_AMS-ara-gal-Ec_AraCa/AMS-ara-gal-Ec_AraCa_CAGATC_L006_R1_001.fastq
 	bowtie -m 1 data/genomes/e_coli_k12_mg1655 data/Sample_AMS-ara-gal-Ec_AraCa/AMS-ara-gal-Ec_AraCa_CAGATC_L006_R1_001.fastq 1> results/AraC/maps/AraCa.map 2> results/AraC/maps/AraCa.out
